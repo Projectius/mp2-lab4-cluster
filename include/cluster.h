@@ -76,6 +76,7 @@ public:
 	}
 
 	int getCompleted() { return completed; }
+	int getBusy() { return busy; }
 
 	void addTask(Task& t)
 	{
