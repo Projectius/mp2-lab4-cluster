@@ -94,12 +94,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\cluster.h" />
     <ClInclude Include="..\include\smartQueue.h" />
-    <ClInclude Include="cluster.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\samples\sample_cluster.cpp" />
-    <ClCompile Include="cluster.cpp" />
+    <ClCompile Include="..\src\cluster.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,7 +13,7 @@
     <ClInclude Include="..\include\smartQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cluster.h">
+    <ClInclude Include="..\include\cluster.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -21,7 +21,7 @@
     <ClCompile Include="..\samples\sample_cluster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cluster.cpp">
+    <ClCompile Include="..\src\cluster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
